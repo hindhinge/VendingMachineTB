@@ -1,0 +1,180 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 3 -n
+3 -fastpaths -xml napoje_beh.twx napoje_beh.ncd -o napoje_beh.twr
+napoje_beh.pcf
+
+Design file:              napoje_beh.ncd
+Physical constraint file: napoje_beh.pcf
+Device,package,speed:     xc7a100t,csg324,C,-3 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+adres<0>    |    1.271(R)|      FAST  |    1.380(R)|      SLOW  |clk_BUFGP         |   0.000|
+adres<1>    |    2.041(R)|      SLOW  |    1.115(R)|      SLOW  |clk_BUFGP         |   0.000|
+adres<2>    |    1.351(R)|      FAST  |    1.260(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<0>  |    0.626(R)|      FAST  |    2.059(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<1>  |    0.701(R)|      FAST  |    2.071(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<2>  |    0.614(R)|      FAST  |    2.001(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<3>  |    0.586(R)|      FAST  |    2.048(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<4>  |    0.972(R)|      FAST  |    1.433(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<5>  |    0.856(R)|      FAST  |    1.906(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<6>  |    0.863(R)|      FAST  |    1.630(R)|      SLOW  |clk_BUFGP         |   0.000|
+dane_we<7>  |    1.147(R)|      FAST  |    1.649(R)|      SLOW  |clk_BUFGP         |   0.000|
+nr_w        |    1.841(R)|      SLOW  |    1.022(R)|      SLOW  |clk_BUFGP         |   0.000|
+user_break  |    0.184(R)|      FAST  |    1.810(R)|      SLOW  |clk_BUFGP         |   0.000|
+user_ok     |   -0.296(R)|      FAST  |    2.138(R)|      SLOW  |clk_BUFGP         |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock clk to Pad
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+               |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination    |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+dane_wy<0>     |        10.336(R)|      SLOW  |         3.920(R)|      FAST  |clk_BUFGP         |   0.000|
+dane_wy<1>     |        10.481(R)|      SLOW  |         4.079(R)|      FAST  |clk_BUFGP         |   0.000|
+dane_wy<2>     |        10.129(R)|      SLOW  |         3.956(R)|      FAST  |clk_BUFGP         |   0.000|
+dane_wy<3>     |        11.405(R)|      SLOW  |         4.105(R)|      FAST  |clk_BUFGP         |   0.000|
+dane_wy<4>     |        10.782(R)|      SLOW  |         4.487(R)|      FAST  |clk_BUFGP         |   0.000|
+dane_wy<5>     |        10.166(R)|      SLOW  |         4.230(R)|      FAST  |clk_BUFGP         |   0.000|
+dane_wy<6>     |        10.677(R)|      SLOW  |         4.439(R)|      FAST  |clk_BUFGP         |   0.000|
+dane_wy<7>     |        10.526(R)|      SLOW  |         4.138(R)|      FAST  |clk_BUFGP         |   0.000|
+nr_podajnika<0>|         7.930(R)|      SLOW  |         3.338(R)|      FAST  |clk_BUFGP         |   0.000|
+nr_podajnika<1>|         8.133(R)|      SLOW  |         3.467(R)|      FAST  |clk_BUFGP         |   0.000|
+podajnik_trig  |         7.977(R)|      SLOW  |         3.378(R)|      FAST  |clk_BUFGP         |   0.000|
+reszta_out     |         9.393(R)|      SLOW  |         4.092(R)|      FAST  |clk_BUFGP         |   0.000|
+---------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock moneta_in to Pad
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+            |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                              | Clock  |
+Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s)             | Phase  |
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+dane_wy<0>  |         8.665(F)|      SLOW  |         3.975(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+dane_wy<1>  |         8.885(F)|      SLOW  |         4.060(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+dane_wy<2>  |         8.723(F)|      SLOW  |         3.966(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+dane_wy<3>  |         9.662(F)|      SLOW  |         4.479(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+dane_wy<4>  |         9.530(F)|      SLOW  |         4.409(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+dane_wy<5>  |         9.086(F)|      SLOW  |         4.180(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+dane_wy<6>  |         9.608(F)|      SLOW  |         4.429(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+dane_wy<7>  |         9.302(F)|      SLOW  |         4.284(F)|      FAST  |moneta_in_edge_STAN[2]_OR_57_o|   0.000|
+------------+-----------------+------------+-----------------+------------+------------------------------+--------+
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    2.717|         |         |         |
+moneta_in      |   -0.122|    3.947|         |         |
+reset          |    2.987|    5.396|         |         |
+user_sel       |   -0.243|    3.538|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock moneta_in
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    3.116|         |
+moneta_in      |         |         |    0.867|    2.227|
+reset          |         |         |    1.300|    1.300|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock reset
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    4.848|         |
+reset          |         |         |    0.933|    0.933|
+user_sel       |         |         |         |    1.748|
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock user_sel
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+reset          |         |         |    2.133|    2.133|
+user_sel       |         |         |         |    1.035|
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+adres<0>       |dane_wy<0>     |    9.289|
+adres<0>       |dane_wy<1>     |    9.524|
+adres<0>       |dane_wy<2>     |    9.054|
+adres<0>       |dane_wy<3>     |   10.383|
+adres<0>       |dane_wy<4>     |    9.046|
+adres<0>       |dane_wy<5>     |    8.926|
+adres<0>       |dane_wy<6>     |    8.700|
+adres<0>       |dane_wy<7>     |    8.494|
+adres<1>       |dane_wy<0>     |    9.144|
+adres<1>       |dane_wy<1>     |    9.471|
+adres<1>       |dane_wy<2>     |    8.913|
+adres<1>       |dane_wy<3>     |   10.238|
+adres<1>       |dane_wy<4>     |    8.611|
+adres<1>       |dane_wy<5>     |    8.781|
+adres<1>       |dane_wy<6>     |    8.555|
+adres<1>       |dane_wy<7>     |    8.626|
+adres<2>       |dane_wy<0>     |    8.800|
+adres<2>       |dane_wy<1>     |    9.027|
+adres<2>       |dane_wy<2>     |    8.569|
+adres<2>       |dane_wy<3>     |    9.886|
+adres<2>       |dane_wy<4>     |    8.807|
+adres<2>       |dane_wy<5>     |    8.429|
+adres<2>       |dane_wy<6>     |    8.203|
+adres<2>       |dane_wy<7>     |    8.255|
+nr_w           |dane_wy<0>     |    9.246|
+nr_w           |dane_wy<1>     |    9.475|
+nr_w           |dane_wy<2>     |    9.015|
+nr_w           |dane_wy<3>     |   10.334|
+nr_w           |dane_wy<4>     |    9.450|
+nr_w           |dane_wy<5>     |    8.877|
+nr_w           |dane_wy<6>     |    8.651|
+nr_w           |dane_wy<7>     |    8.898|
+reset          |reszta_out     |    8.363|
+---------------+---------------+---------+
+
+
+Analysis completed Wed May 13 16:16:16 2020 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 420 MB
+
+
+

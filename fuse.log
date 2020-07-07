@@ -1,0 +1,25 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "E:/PWR/sem 6/WSC/PROJEKT/Projekt/WSC/napoje_tb_isim_beh.exe" -prj "E:/PWR/sem 6/WSC/PROJEKT/Projekt/WSC/napoje_tb_beh.prj" "work.napoje_tb" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "E:/PWR/sem 6/WSC/PROJEKT/Projekt/WSC/napoje_tb.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Parsing VHDL file "E:/PWR/sem 6/WSC/PROJEKT/Projekt/WSC/../napoje.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 161068 KB
+Fuse CPU Usage: 389 ms
+Compiling module napoje_tb
+Compiling module glbl
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture napoje_beh of entity napoje_beh [napoje_beh_default]
+Time Resolution for simulation is 1ps.
+Compiled 6 VHDL Units
+Compiled 2 Verilog Units
+Built simulation executable E:/PWR/sem 6/WSC/PROJEKT/Projekt/WSC/napoje_tb_isim_beh.exe
+Fuse Memory Usage: 178988 KB
+Fuse CPU Usage: 734 ms

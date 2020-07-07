@@ -1,0 +1,38 @@
+----------------------Konfiguracja rejestrów----------------------
+Zapis do rejestru: adres =1, dane_we=00001100
+Zapis do rejestru: adres =2, dane_we=00001100
+Zapis do rejestru: adres =3, dane_we=00001100
+Zapis do rejestru: adres =5, dane_we=00000101
+Zapis do rejestru: adres =6, dane_we=00000110
+Zapis do rejestru: adres =7, dane_we=00000111
+----------------------Odczyt rejestrów----------------------
+Odczyt z rejestru: adres =0, dane_wy=00000001
+Odczyt z rejestru: adres =1, dane_wy=00001100
+Odczyt z rejestru: adres =2, dane_wy=00001100
+Odczyt z rejestru: adres =3, dane_wy=00001100
+Odczyt z rejestru: adres =4, dane_wy=00000000
+Odczyt z rejestru: adres =5, dane_wy=00000101
+Odczyt z rejestru: adres =6, dane_wy=00000110
+Odczyt z rejestru: adres =7, dane_wy=00000111
+----------------------Rozpoczêcie procesu----------------------
+Wybrany napoj: 3
+Wybrana moc: 3
+Wrzucanie 21 monet
+Nr. podajnika 3 zgodny z napojem 3
+Porcje napoju 3 zgodne z wybrana moca 3
+Zwrócono resztê
+Pozostalo porcji: (00001100 - 11) = 00001001
+Zakonczono zakup poprawnie, powrot do stanu wyboru 001
+
+----------------------Zakoñczenie procesu----------------------
+----------------------Rozpoczêcie procesu----------------------
+Wybrany napoj: 3
+Wybrana moc: 2
+Wrzucanie 20 monet
+Nr. podajnika 3 zgodny z napojem 3
+Porcje napoju 2 zgodne z wybrana moca 2
+Zwrócono resztê
+Pozostalo porcji: (00001001 - 10) = 00000111
+Zakonczono zakup poprawnie, powrot do stanu wyboru 001
+
+----------------------Zakoñczenie procesu----------------------

@@ -1,0 +1,29 @@
+Command line:
+   napoje_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49338
+
+Sat May 23 18:23:34 2020
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 845.824 Meg
+
+ Total Signals          : 55
+ Total Nets             : 131
+ Total Signal Drivers   : 47
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 41
+ Total Traceable Variables  : 62
+ Total Scalar Nets and Variables : 731
+Total Line Count : 394
+
+ Total Simulation Time: 0.671875 sec
+
+ Current Memory Usage: 373.178 Meg
+
+Sat May 23 19:05:14 2020
+
